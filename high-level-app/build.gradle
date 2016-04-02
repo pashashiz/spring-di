@@ -1,0 +1,9 @@
+apply plugin: 'application'
+
+description = ''
+
+mainClassName = 'com.mobius.example.Example'
+
+dependencies {
+  compile project(':low-level-module')
+}

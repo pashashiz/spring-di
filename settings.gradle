@@ -1,0 +1,6 @@
+rootProject.name = 'spring-di'
+include ':low-level-module'
+include ':high-level-app'
+
+project(':low-level-module').projectDir = "$rootDir/low-level-module" as File
+project(':high-level-app').projectDir = "$rootDir/high-level-app" as File
